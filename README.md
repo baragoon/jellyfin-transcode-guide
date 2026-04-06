@@ -27,18 +27,18 @@ Install dependencies via:
 
 ```bash
 pip install -r requirements.txt
-```` ``` ````  
+```
 
 ## Usage
 
 Run the script with:
 ```bash
 python jellyfin-transcode-guide.py
-```` ``` ````  
+```
 For advanced mode output:
 ```bash
 python jellyfin-transcode-guide.py --advanced
-```` ``` ````  
+``` 
 ## OUTPUT
 
 Standard Mode
@@ -52,7 +52,7 @@ Maximum Bitrate: 20M
 Transcoding Threads: handled by GPU
 GPU Model: NVIDIA GeForce RTX 3060
 GPU VRAM: 12 GB
-```` ``` ````  
+```
 Advanced Mode
 Provides detailed reasoning and practical guidance:
 
@@ -75,7 +75,7 @@ Provides detailed reasoning and practical guidance:
 - Prefer Direct Play whenever possible to avoid unnecessary transcoding.
 - Avoid 4K → 1080p conversions unless required.
 - Lower bitrate for weaker devices or limited networks.
-```` ``` ````  
+``` 
 ## CONFIGUTATION
 
 Set your Jellyfin server info in jellyfin_config.py:
@@ -84,7 +84,7 @@ Set your Jellyfin server info in jellyfin_config.py:
 JELLYFIN_SERVER = "http://your.server.address:8096"
 API_KEY = "your_api_key_here"
 USER_ID = "your_user_id_here"
-```` ``` ````  
+```
 ## NOTES
 
 The script does not modify your Jellyfin server; it only provides recommendations.
